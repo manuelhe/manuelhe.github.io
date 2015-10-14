@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $color-primary-4;
+  border-bottom: 1px solid $color-primary-2;
 
   @include mobile {
     text-align: center;
@@ -176,6 +176,7 @@ img {
   }
 
   img {
+    border: 1px solid $color-primary-2;
     border-radius: 5px;
   }
 }
@@ -202,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $color-primary-3;
+  color: $color-primary-1;
   font-size: 16px;
 
   @include mobile {
@@ -273,8 +274,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $color-primary-1;
   background-color: $color-primary-4;
 }
 
